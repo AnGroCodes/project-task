@@ -1,3 +1,10 @@
+/*Global*/
+
+.section-title {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -70,8 +77,19 @@ a {
     font-family: 'Source Sans Pro', sans-serif, 900;
 }
 .main-title {
-    margin: auto;
+    margin: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 30px 0 60px 0;
+}
+.service-box {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin: auto;
+    padding: 0 70px;
+
+}.service-tile i {
+    color:  #f9ca24;
+    font-size: 30px;
 }
 
