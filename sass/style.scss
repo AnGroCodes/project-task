@@ -128,31 +128,36 @@ a {
 
 .portfolio {
     background-color: #dcdde1;
+    margin: 40px 0 40px 0;
 }
-.field img {
-    width: 100%;
-    max-width: 100%;
-}
-.field-text {
+.field-image {
+    background: white;
     text-align: center;
-    background-color: white;
 }
-.field-text h2 {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+.field-image img {
+  object-fit: cover;
+  max-width: 100%;
 }
-.field-text p {
+.field-image p {
     font-family: 'Playfair Display', serif;
+    display: inline-block;
+    margin-top: 0;
 }
 .field {
-    float: left;
     width: 33.33%;
-    padding: 20px;
-    background-color: #dcdde1;
+    padding: 10px;
+    background-color: inherit;
+}
+.field-image h2 {
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 .row {
-    padding: 20px 100px;
+    padding: 50px 200px 15px 200px;
     text-align: center;
+}
+.second-row {
+    padding: 0 200px 100px 200px;
 }
 /*Footer*/
 .social {
