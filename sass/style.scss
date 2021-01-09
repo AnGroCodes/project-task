@@ -160,10 +160,14 @@ a {
     padding: 0 200px 100px 200px;
 }
 /*Footer*/
+footer {
+    height: 150px;
+    padding: 0 200px;
+}
 .social {
     float:left;
     width: 33.33%;
-    padding: 0 20px;
+    padding: 20px;
 }
 .copyright {
     padding: 20px;
@@ -173,17 +177,18 @@ a {
 }
 .social-icon {
     font-size: 0;
-    margin: 5px; 
-    float: left;  
-    padding: 20px 0;
+    margin: 5px;   
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
 }
 .social-icon i {
-    font-size: 14px;
+    font-size: 20px;
     color:white;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-color: black;
     border-radius: 50%;
-    padding: 8px;
+    padding: 10px;
 }
 
