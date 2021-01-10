@@ -52,11 +52,9 @@ a {
 .container {
     position: absolute;
     top: 20px;
-    right: 100px;
 }
 .image img {
     width: 100%;
-    max-width: 100%;
     height: 800px;
     object-fit: cover;
 }
@@ -191,4 +189,19 @@ footer {
     border-radius: 50%;
     padding: 10px;
 }
-
+/*Media queries*/
+@media (max-width:991px) {
+    .service-box {
+        width: 100%;
+    }
+    .field {
+        width: 100%;
+    }
+    footer {
+        padding: 0;
+    }
+    .container {
+        padding-left: 100px;
+        padding-right: 0;
+    }
+}
