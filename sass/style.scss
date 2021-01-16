@@ -9,6 +9,11 @@ body {
     margin: 0;
 }
 /*Navbar*/
+ul {
+    margin: 10px 30px;
+    padding: 0;
+    list-style-type: none;
+}
 li {
     display: inline-block;
     padding: 10px;
@@ -27,13 +32,17 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 80vh;
+    padding-bottom: 20px;
 }
 .logo {
     color: #fbc531;
     font-family: 'Playfair Display', serif;
+    margin: 10px 30px;
+    padding: 0;
 }
 .btn {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     width: 200px;
     padding: 20px;
     font-size: 20px;
@@ -125,3 +134,12 @@ a {
     padding: 10px;
 }
 /*Media queries*/
+
+@media (max-width: 767px) {
+    .page-subtitle {
+        font-size: 60px;
+    }
+    .page-title {
+        font-size: 30px;
+    }
+}
