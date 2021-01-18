@@ -75,6 +75,9 @@ a {
     font-family: 'Playfair Display', serif;
 }
 /*SERVICES*/
+.services {
+    padding-bottom: 30px;
+}
 .service-tile i {
     color:  #fbc531;
     font-size: 30px;
@@ -91,6 +94,7 @@ a {
 /*Portfolio*/
 .portfolio {
     background-color: #dcdde1;
+    padding-bottom: 30px;
 }
 .field-image {
     background: white;
@@ -115,6 +119,7 @@ a {
 /*Footer*/
 .copyright {
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
 }
 .social-icon {
     font-size: 0;
@@ -130,6 +135,12 @@ a {
     background-color: black;
     border-radius: 50%;
     padding: 10px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 /*Media queries*/
 
