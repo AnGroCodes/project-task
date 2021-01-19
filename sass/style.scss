@@ -68,26 +68,26 @@ a {
 .main-title {
     margin: 0;
     text-align: center;
-
     p {
     margin: 0;
     padding-bottom: 20px;
     font-family: 'Playfair Display', serif;
+    } 
 }
-    
+ 
 /*SERVICES*/
 .services {
     padding-bottom: 30px;
 }    
 .service-tile {
     text-align: center;
-
     i {
     color:  #fbc531;
     font-size: 30px;
     border-radius: 60px;
     box-shadow: 0 0 5px #fbc531;
     padding: 0.6em 0.6em;  
+    }
 }
 .service-title {
     font-family: 'Source Sans Pro', sans-serif;
@@ -99,20 +99,18 @@ a {
 }
 .field-image {
     background: white;
-    text-align: center;
-
+    text-align: center;               
     img {
     object-fit: cover;
     max-width: 100%;
-    
     p {
     font-family: 'Playfair Display', serif;
     display: inline-block;
     margin-top: 0;
-
     h2 {
     margin-top: 15px;
     margin-bottom: 0;
+    }}}
 }
 .wrapper {
     padding: 10px;
@@ -127,7 +125,6 @@ a {
     margin: 5px;   
     padding: 5px;
     display: inline-block;
-
     i {
     font-size: 20px;
     color:white;
@@ -136,6 +133,7 @@ a {
     background-color: black;
     border-radius: 50%;
     padding: 10px;
+    }
 }
 .social-icons {
     display: flex;
@@ -153,5 +151,6 @@ a {
         font-size: 30px;
     }
 }
+
 
 
